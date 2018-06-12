@@ -15,7 +15,7 @@
 ## Attributes
 | name                        |  format   | description               | default_value |
 | :--------------------------:| :------:  | :-----------:             | :-----------: |
-| leftRightInterval            | dimension     | 左进度条的背景颜色          | 20       |
+| leftRightInterval            | dimension     | 左右View的间隔距离          | 20       |
 | rightSrc         | reference   | 下载中时的动态图             |  |
 | textLeft           | string     | 左边所要显示的文本         | |
 | textRight        | string   | 右边所要显示的文本             |  |
