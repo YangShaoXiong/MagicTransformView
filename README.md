@@ -1,5 +1,5 @@
 ## Preview
-![效果图](https://github.com/YangShaoXiong/MagicTransform/blob/master/screenshot/image.gif)
+![效果图](https://github.com/YangShaoXiong/MagicTransformView/blob/master/screenshot/image.gif)
 ## Usage
 ```java
 <com.dreamer.magictransformview.widget.MagicTransformView
