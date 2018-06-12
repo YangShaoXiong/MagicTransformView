@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@android:color/holo_blue_light"
     tools:context=".MainActivity">
 
@@ -12,14 +13,11 @@
         android:id="@+id/magic_view"
         android:layout_width="match_parent"
         android:layout_height="49dp"
+        android:layout_marginTop="30dp"
         android:padding="10dp"
         app:leftRightInterval="10dp"
         app:rightSrc="@array/download_imgs"
         app:textLeft="写评论"
-        app:textRight="下载(520M)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:textRight="下载(520M)"/>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
