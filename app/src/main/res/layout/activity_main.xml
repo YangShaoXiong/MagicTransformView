@@ -5,12 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <com.dreamer.magictransformview.widget.MagicTransformView
+        android:id="@+id/magic_view"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:padding="10dp"
+        app:leftRightInterval="10dp"
+        app:rightSrc="@array/download_imgs"
+        app:textLeft="写评论"
+        app:textRight="下载(520M)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

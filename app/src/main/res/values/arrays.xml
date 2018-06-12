@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="download_imgs">
+        <item>@drawable/small_download_gif_1</item>
+        <item>@drawable/small_download_gif_2</item>
+        <item>@drawable/small_download_gif_3</item>
+        <item>@drawable/small_download_gif_4</item>
+        <item>@drawable/small_download_gif_5</item>
+        <item>@drawable/small_download_gif_6</item>
+    </array>
+</resources>

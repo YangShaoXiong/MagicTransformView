@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MagicTransformView">
+        <attr name="textLeft" format="string"/>
+        <attr name="textRight" format="string"/>
+        <attr name="rightSrc" format="reference"/>
+        <attr name="leftRightInterval" format="dimension"/>
+    </declare-styleable>
+</resources>
